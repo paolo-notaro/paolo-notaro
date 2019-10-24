@@ -37,13 +37,13 @@
 
   $('.nav-item').click(function(e){
   	e.preventDefault();
+  	$('.nav-item').removeClass('active');
+	$(this).addClass('active');
   	var url = $(this).attr('href');
   	loadViewportContent(url);
   });
 
   function loadViewportContent(url){
-	  $('.nav-item').removeClass('active');
-	  $(this).addClass('active');
 	  $.get(url, success, "text");
 	}
 
