@@ -8,3 +8,9 @@ h1{
 	font-family: Arial;
 	color: blue;	
 }
+
+/* Disabling default behavior of <a> links will disable
+   the pointer cursor as well. Let's fix that. */
+.nav-item a{
+	cursor: pointer;
+}
