@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+  <link rel="stylesheet" href="include/bootstrap.min.css">
+  <script src="include/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles/default.css">
+  <title>Paolo Notaro</title>
+</head>
+<body>
+	<nav class="navbar navbar-dark navbar-expand-md bg-dark">
+		<a class="navbar-brand" href=""> Paolo Notaro </a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle Navigation bar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#about">About me</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#projects">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contacts">Contacts</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<script src="include/jquery-3.3.1.slim.min.js"></script>
+    <script src="include/popper.min.js"></script>
+    <div class="main"></div>
+</body>
+<script type="text/javascript">
+
+  //Click event handler for nav-items
+  $('.nav-item').on('click', function(){
+
+      var url = $(this).attr('href');
+
+	  //Remove any previous active classes
+	  $('.nav-item').removeClass('active');
+
+	  //Add active class to the clicked item
+	  $(this).addClass('active');
+
+	  //Make corresponding content appear
+	$.ajax({
+    url: url,
+    success: function(response){ //on success
+      $('main').html(response); //update your div
+    }
+  });
+});
+
+</script>
+</html>
