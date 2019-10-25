@@ -34,13 +34,15 @@
 <script type="text/javascript">
 
   loadViewportContent("pages/main.html");
-
+  var ANIMATION_SPEED = 300;
   $('.nav-item').click(function(e){
   	e.preventDefault();
   	$('.nav-item').removeClass('active');
 	$(this).addClass('active');
   	var url = $(this).attr('href');
-  	loadViewportContent(url);
+  	$('.main-content').animate({opacity: '0'}, ANIMATION_SPEED, function(){
+  		loadViewportContent(url);
+  	});
   });
 
   function loadViewportContent(url){
@@ -49,6 +51,7 @@
 
   function success(response){ 
    	$('.main-content').html(response.toString());
+   	$('.main-content').animate({opacity: '1'}, ANIMATION_SPEED);
   }
 </script>
 </html>
