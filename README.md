@@ -64,13 +64,13 @@ I also use personal repositories to document engineering practice: packaging, CI
 
 ## Tech stack
 
-**Languages:** Python, C++, SQL, Bash, Java
-**LLM / GenAI:** vLLM, Hugging Face Transformers, LangChain/LangGraph, agents, MCP, FAISS, ChromaDB, hybrid retrieval
-**LLMOps / MLOps:** MLflow, DVC, W&B, MinIO, Docker, Kubernetes, Helm, ArgoCD, FastAPI
-**Observability:** Prometheus, Grafana, ELK
-**ML / DL:** PyTorch, PyG, scikit-learn, OpenCV, Gym
-**Quality:** GitHub Actions, GitLab CI/CD, Poetry, uv, Ruff, pytest, mkdocs
-**Security & governance:** EU AI Act, GDPR, model-risk evaluation, guardrails, TEEs, differential privacy
+* **Languages:** Python, C++, SQL, Bash, Java
+* **LLM / GenAI:** vLLM, Hugging Face Transformers, LangChain/LangGraph, agents, MCP, FAISS, ChromaDB, hybrid retrieval
+* **LLMOps / MLOps:** MLflow, DVC, W&B, MinIO, Docker, Kubernetes, Helm, ArgoCD, FastAPI
+* **Observability:** Prometheus, Grafana, ELK
+* **ML / DL:** PyTorch, PyG, scikit-learn, OpenCV, Gym
+* **Quality:** GitHub Actions, GitLab CI/CD, Poetry, uv, Ruff, pytest, mkdocs
+* **Security & governance:** EU AI Act, GDPR, model-risk evaluation, guardrails, TEEs, differential privacy
 
 ---
 
