@@ -2,7 +2,7 @@
 
 **Senior ML Engineer - LLMOps \& Trustworthy GenAI**
 
-Production GenAI · LLM evaluation · RAG systems · AIOps · ML security & privacy
+> Production GenAI · LLM evaluation · RAG systems · AIOps · ML security & privacy
 
 I build and operate ML/LLM systems for reliability-critical environments: evaluation pipelines, RAG services, model-serving infrastructure, observability, safety/privacy guardrails, and AI-based reliability tooling for large-scale systems.
 
