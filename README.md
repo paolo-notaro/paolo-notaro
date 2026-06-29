@@ -37,11 +37,12 @@ This GitHub profile is a curated public surface to demonstrate my expertise with
 ### GenAI / LLMOps
 
 * Building production-style public demos around evaluation, RAG, and LLM application safety.
+  * [NaturalQL](https://paolo-notaro.github.io/projects/): Natural-language-to-SQL demo with schema-bounded prompting and safe execution
 * Professional work includes LLM evaluation platforms, CI quality gates, RAG services, vLLM/Kubernetes serving, and GenAI observability. Public case studies and simplified demos are linked from my portfolio.
 
 ### AIOps & reliability
 
-* PhD research on AI-based proactive failure management for large-scale cloud systems.
+* PhD research on AI-based proactive failure management for large-scale cloud systems. See [here](https://paolo-notaro.github.io/publications/).
 * First-author publications on AIOps surveys, structured-log root-cause analysis, and operational risk classification.
 
 ### ML security & privacy
