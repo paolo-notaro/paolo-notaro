@@ -4,19 +4,19 @@
 
 > Production GenAI · LLM evaluation · RAG systems · AIOps · ML security & privacy
 
-I build and operate ML/LLM systems for reliability-critical environments: evaluation pipelines, RAG services, model-serving infrastructure, observability, safety/privacy guardrails, and AI-based reliability tooling for large-scale systems.
+I build and operate ML systems for reliability- and safety-critical environments: evaluation pipelines, RAG services, model-serving infrastructure, observability, safety/privacy guardrails, and AI-based reliability tooling for large-scale systems.
 
-This GitHub profile is a curated public surface to demonstrate my expertise with selected demos, reproducible experiments, OSS contributions, and links to case studies.
+This GitHub profile page is a curated summary of my public work, including selected demos, reproducible experiments, OSS contributions, and links to case studies.
 
 ---
 
-## What I work on
+## Topics I work on
 
-* **LLMOps & GenAI platforms**: evaluation, CI quality gates, RAG, agents, vLLM, Kubernetes, MLflow, DVC
-* **Production ML infrastructure**: model serving, observability, SLOs, Grafana/ELK, CI/CD, deployment automation
-* **AIOps & reliability**: failure prediction, incident diagnosis, structured-log mining, operational risk
+* **LLMOps & GenAI platforms**: model evaluation, CI quality gates for GenAI models, RAG, agents, LLM serving and inference
+* **Production ML infrastructure**: observability, SLOs, Grafana/ELK, CI/CD, model and dataset versioning
+* **AIOps & reliability**: online failure prediction, root-cause analysis, anomaly detection, operational risk analysis and prevention
 * **ML security & privacy**: guardrails, confidential computing, TEEs, differential privacy, model-risk evaluation
-* **Applied ML**: NLP, computer vision, graph learning, reinforcement learning, tabular modeling
+* **Applied ML**: NLP, computer vision, graph learning, reinforcement learning, tabular models
 
 ---
 
